@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "markdown-it-admonition": "^1.0.4",
+    "vuepress-theme-cool": "^0.1.5"
+  }
+}

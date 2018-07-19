@@ -1,0 +1,16 @@
+createdAt: "2018-07-19T01:29:07.159Z"
+updatedAt: "2018-07-19T01:29:17.515Z"
+type: "SNIPPET_NOTE"
+folder: "5cef29a72e245ea24273"
+title: ""
+description: ""
+snippets: [
+  {
+    name: ""
+    mode: "text"
+    content: "test"
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
