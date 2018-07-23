@@ -57,10 +57,11 @@ def write_boostnote_markdown(data, output, folder_map):
         try: 
             f.write(data['content'])
             print(target_file)
+        # todo, add code to manage snippets
         except:
             print('nothing good')
     
-    # Update the date of the file correctly, I didn't get this working on windows
+    # Update date of file correctly.
     if time_aware:
         update_at = arrow.get(data['updatedAt'])
         update_at_epoch = int(update_at.timestamp)
@@ -100,7 +101,7 @@ if __name__ == '__main__':
         help="directory store the cson files",
         default=".")
     parser.add_argument(
-        '-o', '--output', type=str, help="output directory", default="output")
+        '-o', '--output', type=str, help="output directory", default="docs")
 
     args = parser.parse_args()
 
