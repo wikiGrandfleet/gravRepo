@@ -68,7 +68,7 @@ function testing() {
 }
 
 module.exports = {
-  base: '/markdown-notes-template/',
+  base: '/boostnote-notes/',
   //theme: 'cool',
   //dest: 'dist',
   head: [
@@ -82,6 +82,9 @@ module.exports = {
     nav:  genNavBarList(),
     // consider making this sidebar generation completely automatic, but would I prefer to make some control over titling and selected folders that are displayed.   
     sidebar: { 
+      '/Reading List/': genSideBarConfigFolder('ReadingList','/Reading List/'),
+      '/August to October/': genSideBarConfigFolder('August to October','/August to October/'),
+      '/June and July 2018/': genSideBarConfigFolder('JJ 2018','/June and July 2018/'),
       '/Test/': genSideBarConfigFolder('Epic Test','/Test/'),
       '/': [
       ''

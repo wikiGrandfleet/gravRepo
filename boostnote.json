@@ -9,6 +9,16 @@
       "key": "5e0d61720a3e0b9b0d08",
       "color": "#3FD941",
       "name": "Test"
+    },
+    {
+      "key": "fb2abb5723b1e45552eb",
+      "color": "#2BA5F7",
+      "name": "Reading List"
+    },
+    {
+      "key": "014044bfc8727b62d586",
+      "color": "#E10051",
+      "name": "August to October"
     }
   ],
   "version": "1.0"
