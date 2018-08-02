@@ -1,11 +1,11 @@
 stages:
-  - docs
   - build
+#  - build
   - deploy
 
 generate_docs:
   image: python:3.6
-  stage: docs
+  stage: build
   script:
     - apt-get update -q -y
     - pip install -r requirements.txt
@@ -15,7 +15,7 @@ generate_docs:
       - docs
     expire_in: 1 week
     
-gitlabPages:
+pages:
   image: node:9.11.1
   stage: build
   cache:
@@ -24,27 +24,27 @@ gitlabPages:
   script:
     - yarn install
     - yarn docs:build
-    - mv docs/.vuepress/dist gitlabPages
     - ls
     - echo "Highly unlikely their is gitlab pages, because I am using gitlab for CI/CD"
-  artifacts:
-    paths: 
-      - gitlabPages
-    expire_in: 1 week
-  only:
-    - master
-
-gitlabDeploy:
-  stage: deploy
-  dependencies:
-    - gitlabPages
-  script:
-    - mv gitlabPages/ public/
+    - mv docs/.vuepress/dist public
   artifacts:
     paths: 
       - public
     expire_in: 1 week
   only:
+    - master
+
+#gitlabDeploy:
+#  stage: deploy
+#  dependencies:
+#    - gitlabPages
+#  script:
+#    - mv gitlabPages/ public
+#  artifacts:
+#    paths: 
+#      - public
+#    expire_in: 1 week
+#  only:
     - master
    
 #githubPages:
