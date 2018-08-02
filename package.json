@@ -1,6 +1,15 @@
-{
+"scripts": {
+    "docs:dev": "node node_modules/vuepress/bin/vuepress dev docs",
+    "docs:build": "node node_modules/vuepress/bin/vuepress.js build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.12.0"
+  },
   "dependencies": {
-    "markdown-it-admonition": "^1.0.4",
-    "vuepress-theme-cool": "^0.1.5"
+    "markdown-it-admonition": "https://github.com/johannbre/markdown-it-admonition",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-plantuml": "^1.1.0",
+    "markdown-it-task-lists": "^2.1.1"
   }
-}
