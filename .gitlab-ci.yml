@@ -24,7 +24,7 @@ gitlabPages:
   script:
     - yarn install
     - yarn docs:build
-    - mv docs/.vuepress/dist public
+    - mv docs/.vuepress/dist public/
     - ls
     - echo "Highly unlikely their is gitlab pages, because I am using gitlab for CI/CD"
   artifacts:
