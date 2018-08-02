@@ -29,7 +29,7 @@ gitlabPages:
     - echo "Highly unlikely their is gitlab pages, because I am using gitlab for CI/CD"
   artifacts:
     paths: 
-      - public/
+      - public/*
     expire_in: 1 week
   only:
   - master
