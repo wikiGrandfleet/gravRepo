@@ -32,12 +32,12 @@ gitlabPages:
       - gitlabPages
     expire_in: 1 week
   only:
-  - master
+    - master
 
 gitlabDeploy:
   stage: deploy
   dependencies:
-    - build
+    - gitlabPages
   script:
     - mv gitlabPages/ public/
   artifacts:
@@ -45,7 +45,7 @@ gitlabDeploy:
       - public
     expire_in: 1 week
   only:
-  - master
+    - master
    
 #githubPages:
 #  stage: deploy
