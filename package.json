@@ -1,3 +1,4 @@
+{
 "scripts": {
     "docs:dev": "node node_modules/vuepress/bin/vuepress dev docs",
     "docs:build": "node node_modules/vuepress/bin/vuepress.js build docs",
@@ -13,3 +14,4 @@
     "markdown-it-plantuml": "^1.1.0",
     "markdown-it-task-lists": "^2.1.1"
   }
+}
