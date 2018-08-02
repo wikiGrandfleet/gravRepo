@@ -24,16 +24,28 @@ gitlabPages:
   script:
     - yarn install
     - yarn docs:build
-    - mv docs/.vuepress/dist public/
+    - mv docs/.vuepress/dist gitlabPages
     - ls
     - echo "Highly unlikely their is gitlab pages, because I am using gitlab for CI/CD"
   artifacts:
     paths: 
-      - public/*
+      - gitlabPages
     expire_in: 1 week
   only:
   - master
 
+gitlabDeploy:
+  stage: deploy
+  dependencies:
+    - build
+  script:
+    - mv gitlabPages/ public/
+  artifacts:
+    paths: 
+      - public
+    expire_in: 1 week
+  only:
+  - master
    
 #githubPages:
 #  stage: deploy
