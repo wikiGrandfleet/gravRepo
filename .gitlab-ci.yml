@@ -10,9 +10,10 @@ generate_docs:
     - apt-get update -q -y
     - pip install -r requirements.txt
     - python3 boostNote2Md.py
+    - mv docs gitlab
   artifacts:
     paths: 
-      - docs
+      - gitlab
     expire_in: 1 week
     
 pages:
@@ -23,10 +24,10 @@ pages:
     - node_modules/
   script:
     - yarn install
-    - yarn docs:build
+    - yarn gitlab:build
     - ls
     - echo "Highly unlikely their is gitlab pages, because I am using gitlab for CI/CD"
-    - mv docs/.vuepress/dist public
+    - mv gitlab/.vuepress/dist public
   artifacts:
     paths: 
       - public

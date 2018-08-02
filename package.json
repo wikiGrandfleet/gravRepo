@@ -2,6 +2,8 @@
 "scripts": {
     "docs:dev": "node node_modules/vuepress/bin/vuepress dev docs",
     "docs:build": "node node_modules/vuepress/bin/vuepress.js build docs",
+    "gitlab:dev": "node node_modules/vuepress/bin/vuepress dev gitlab",
+    "gitlab:build": "node node_modules/vuepress/bin/vuepress.js build gitlab",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
