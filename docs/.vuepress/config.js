@@ -81,14 +81,11 @@ module.exports = {
     displayAllHeaders: true, // Default: false
     nav:  genNavBarList(),
     // consider making this sidebar generation completely automatic, but would I prefer to make some control over titling and selected folders that are displayed.   
+    // The first and the last string need to match in the sidebar.
     sidebar: { 
-      '/Reading List/': genSideBarConfigFolder('Reading List','/Reading_List/'),
-      '/August to October/': genSideBarConfigFolder('August to October','/August_to_October/'),
-      '/June and July 2018/': genSideBarConfigFolder('JJ 2018','/June_and_July_2018/'),
-      '/Test/': genSideBarConfigFolder('Epic Test','/Test/'),
-      '/': [
-      ''
-      ]
+      '/TaskList/': genSideBarConfigFolder('Task List','/TaskList/'),
+      '/ReadingList/': genSideBarConfigFolder('Reading List','/ReadingList/'),
+      '/Test/': genSideBarConfigFolder('Epic Test','/Test/')
     },
     sidebarDepth: 2,
     lastUpdated: 'Last Updated', // string | boolean

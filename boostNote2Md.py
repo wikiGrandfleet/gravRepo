@@ -28,8 +28,8 @@ except ImportError:
     time_aware = False
 
 def read_file(fp):
-    with open(fp, 'rb') as f:
-        return f.read().decode('utf8', 'ignore')
+    with open(fp, 'r', errors='ignore') as f:
+        return f.read()
 
 
 def text_to_dict(text):

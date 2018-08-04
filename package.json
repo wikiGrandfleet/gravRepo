@@ -1,5 +1,5 @@
 {
-"scripts": {
+  "scripts": {
     "docs:dev": "node node_modules/vuepress/bin/vuepress dev docs",
     "docs:build": "node node_modules/vuepress/bin/vuepress.js build docs",
     "gitlab:dev": "node node_modules/vuepress/bin/vuepress dev gitlab",
@@ -8,7 +8,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^0.12.0"
+    "vuepress": "^0.13.1"
   },
   "dependencies": {
     "markdown-it-admonition": "https://github.com/johannbre/markdown-it-admonition",

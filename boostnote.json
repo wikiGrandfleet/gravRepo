@@ -3,7 +3,7 @@
     {
       "key": "5cef29a72e245ea24273",
       "color": "#2BA5F7",
-      "name": "June_and_July_2018"
+      "name": "TaskList"
     },
     {
       "key": "5e0d61720a3e0b9b0d08",
@@ -13,12 +13,7 @@
     {
       "key": "fb2abb5723b1e45552eb",
       "color": "#2BA5F7",
-      "name": "Reading_List"
-    },
-    {
-      "key": "014044bfc8727b62d586",
-      "color": "#E10051",
-      "name": "August_to_October_2018"
+      "name": "ReadingList"
     }
   ],
   "version": "1.0"

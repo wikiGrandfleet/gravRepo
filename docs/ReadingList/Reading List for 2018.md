@@ -2,7 +2,9 @@
 
 !!! caution list
 ENGR 003
-- [ ] Internet of Things A to Z: Technologies and Applications
+- [x] Internet of Things A to Z: Technologies and Applications
+- [ ] Soldiity Books
+- [ ] Hyperledger Composer Book
 !!!
 
 

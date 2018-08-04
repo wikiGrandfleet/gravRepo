@@ -1,5 +1,5 @@
 createdAt: "2018-07-24T02:07:09.556Z"
-updatedAt: "2018-08-01T00:17:19.538Z"
+updatedAt: "2018-08-04T00:45:49.690Z"
 type: "MARKDOWN_NOTE"
 folder: "fb2abb5723b1e45552eb"
 title: "Reading List for 2018"
@@ -8,7 +8,9 @@ content: '''
   
   !!! caution list
   ENGR 003
-  - [ ] Internet of Things A to Z: Technologies and Applications
+  - [x] Internet of Things A to Z: Technologies and Applications
+  - [ ] Soldiity Books
+  - [ ] Hyperledger Composer Book
   !!!
   
   
