@@ -47,7 +47,7 @@ pages:
 #      - public
 #    expire_in: 1 week
 #  only:
-    - master
+#    - master
    
 #githubPages:
 #  stage: deploy
