@@ -1,9 +1,12 @@
 ### Reading List for 2018
 
+#### Blockchain
 !!! caution list
 ENGR 003
 - [x] Internet of Things A to Z: Technologies and Applications
-- [ ] Soldiity Books
+- [x] Solidity Programming Essentials
+- [x] Solidity book for developers
+- [ ] Games for Ethereum
 - [ ] Hyperledger Composer Book
 !!!
 

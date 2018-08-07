@@ -7,24 +7,27 @@ keep adding new entries to the top
 !!! error Current Tasks Highest priority
 **Current tasks** get done quickly.
 - [ ] Finish the ENGR 003 Report
-- [ ] Reading documentation for IOT in both markdown and latex.
+- [x] Reading documentation for IOT in both markdown and latex.
 - [ ]. [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
 !!!
 
 !!! danger Major Backlog
 The tasks listed below are expected to be done by the end of the term.
 - [ ] cool [firebase Vue Dapp](https://medium.com/@sebinatx/building-an-ethereum-firebase-user-profile-dapp-part-2-226bcc11ae62, ) 
-- [ ] Soldiity contracts repo for games, explaining how to use then and more.
+- [ ] Soldiity contracts repo for games, explaining how to use then and more. Also, use solcdoc to make markdoown files and a script for latex/vuepress to include the source? 
+- [x] Update the Blockchain notes repo.
 - [ ] When making the solidity contracts use boostnote minus the admonitions, but write the code in either js or solidity and use [Pandoc Markdown Code Blocks in LaTeX](http://weibeld.net/markdown/pandoc_code_blocks.html) with a custom pandoc template.
 - [ ] Fix python script on gitlab, auto sending reports to self, with probably jinja based format and maybe latex output.
+- [ ] [Building a chat bot with Nest.js and Dialogflow](https://pusher.com/tutorials/chat-bot-nestjs), extend this app. and look at [How to Build a Vue.js Chat App with ChatEngine | PubNub](https://www.pubnub.com/tutorials/chatengine/vuejs/chat-app/)
 !!!
 
 !!! caution Minor Backlog
 The tasks listed below are expected to be done by the end of the term.
 - [ ] ALso get BOTUI working, https://github.com/botui/botui, so I can get vue based protoflio?
-- [ ] Porotflio theme done in vuepress or other.
-- [ ] Update the automatic navbar/sidebar generation for markdown-notes-template.
-- [ ] 
+- [ ] Porotflio theme done in vuepress or other. Could Use Hugo
+- [x] Update the automatic navbar/sidebar generation for markdown-notes-template. Kinda works but could explore alternatives.
+- [ ] Take care of long term issues such as filing out what games I have on my machine, run python script, and in addition migrate private repos to gitlab and/or make some public.
+- [ ] Still some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)
 !!!
  
 
@@ -50,11 +53,13 @@ Do if bored.
 - [ ] Deploy some garbage apps using go
 - [ ] Update documentation for vuepress-theme-cool and markdown-notes-template and provide a cheatsheet of what boostnote/vuepress can do together and limitations. 
 - [ ] [GitHub - dsbert/boostnote-exporter: Export notes from boostnote to raw markdown](https://github.com/dsbert/boostnote-exporter)
-
+- [     ] [Step by Step Approach to create DAPP—using Ethereum, ReactJS & IPFS — Part 1](https://medium.com/coinmonks/step-by-step-approach-to-create-dapp-using-ethereum-reactjs-ipfs-part-1-42ea4cf69488)
 !!!
 
 !!! note References
 [GitHub - johannbre/markdown-it-admonition: An admonition plugin for markdown-it powered by docarys.io](https://github.com/johannbre/markdown-it-admonition)
+
+
 !!!
 ```chart
 {

@@ -18,6 +18,12 @@ import re
 import fileinput
 import shutil
 
+# Boostnote Notes constant file types
+MARKDOWN_NOTE = "MARKDOWN_NOTE"
+SNIPPET_NOTE = "SNIPPET_NOTE"
+# Vuepress type props 
+VUEPRESS_TYPES = ['tip','warn','error']
+# Could have a set of boostnote tags that map to tip, warn and error, but for now don't worry about it.
 try:
     import arrow
     time_aware = True
@@ -56,16 +62,69 @@ def write_boostnote_markdown(data, output, folder_map):
     target_dir = os.path.join(output, folder_map[data['folder']])
     if not os.path.exists(target_dir):
         os.makedirs(target_dir)
-
+    file_title = data['title']
     target_file = os.path.join(target_dir, '{}.md'.format(data['title'].replace('/', '-')))
     with open(target_file, 'w') as f:
         # If no data is present, skip the snippets
-        try: 
-            f.write(data['content'])
-            print(target_file)
-        # todo, add code to manage snippets
+        boostnote_type = data['type']
+        ## Write badges into the file 
+        try:
+            badges= data['tags']
+            if badges == []:
+                #print('Empty List, skipping badge printing')
+                print('')
+            else:
+                if file_title != '':
+                    print('Writing Title: ' + file_title)
+                    f.write('## ' + file_title)
+                    #print('ANIME OUT')
+                # Adding boostnote tags as vuepress badges, a little to specific for my taste, but easy enough to comment out later.
+                for badge in badges: 
+                    vue_badge_string = " <Badge text=\"%s\" type=\"%s\" /> " % (badge, VUEPRESS_TYPES[1])
+                    f.write(vue_badge_string)
+                f.write('\n')
         except:
-            print('nothing good')
+            print('Writing title and/or badges failed')
+        # print(boostnote_type)
+        try:
+            if data['type'] == MARKDOWN_NOTE:
+                f.write(data['content'])
+                print('Writing a boostnote markdown file at: ' + target_file)
+            elif data['type'] == SNIPPET_NOTE:
+                snippets = data['snippets']
+                for snippet in snippets:
+                #print()
+                    title = snippet['name']
+                    codeLanguage = snippet['mode']
+                    content = snippet['content']
+                    # Error conditions, fuck 
+                    
+                    if title == "":
+                        title = "no name"
+                    # Debug statements
+                    print('title: ' + title + ' language: ' + codeLanguage)
+                    #print(snippet['content'])
+                    # Add heading 
+                    if content == "":
+                        print('unfortunately, the snippet has no content ')
+                    else:
+                        f.write('\n')
+                        f.write('### ' + title + '\n\n')
+                        # Add opening code block
+                        f.write('```' + codeLanguage + '\n')
+                        # Add Content 
+                        f.write(content + '\n')
+                        # Add closing block 
+                        f.write('```' + '\n\n')
+                        # Add horizontal rule 
+                        f.write('<hr />' + '\n\n')
+                        f.write('\n')
+                #    print(snippet['content'])
+                print('Writing boostnote snippets to file at: ' + target_file)
+            else:
+                print('unexpected data type: ' + data['type'])
+        except:
+            print('Error in writing boostnote file' + target_file)
     
     # Update date of file correctly.
     if time_aware:
@@ -110,10 +169,10 @@ def fileConfigBase(vuepress_config_path):
         for match in re.finditer(p, line):
             print('Found on line %s: %s' % (i+1, match.groups()))
             print(line)
-            test= re.findall('\'(.*?)\'', line)[0]
-            print(test)
+            vuepress_basepath = re.findall('\'(.*?)\'', line)[0]
+            print(vuepress_basepath)
             break
-    return test
+    return vuepress_basepath
 
 def main(boostnote_dir, output):
     """
@@ -155,7 +214,7 @@ if __name__ == '__main__':
     vuepress_config_path = 'docs/.vuepress/config.js'
     vuepress_basepath = fileConfigBase(vuepress_config_path)
     replaceFiles(vuepress_basepath)
-    # Move copy of images folder to public vuepress resources            
+    # Move copy of images folder to public vuepress resources folder          
     images_path = './docs/.vuepress/public/images'
 
     if os.path.isdir(images_path):
