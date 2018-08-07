@@ -1,5 +1,5 @@
 createdAt: "2018-08-04T15:11:17.395Z"
-updatedAt: "2018-08-06T00:03:39.245Z"
+updatedAt: "2018-08-07T02:22:12.636Z"
 type: "MARKDOWN_NOTE"
 folder: "5cef29a72e245ea24273"
 title: "August to October"
@@ -30,7 +30,7 @@ content: '''
   !!! caution Minor Backlog
   The tasks listed below are expected to be done by the end of the term.
   - [ ] ALso get BOTUI working, https://github.com/botui/botui, so I can get vue based protoflio?
-  - [ ] Porotflio theme done in vuepress or other.
+  - [ ] Porotflio theme done in vuepress or other. Could Use Hugo
   - [x] Update the automatic navbar/sidebar generation for markdown-notes-template. Kinda works but could explore alternatives.
   - [ ] Take care of long term issues such as filing out what games I have on my machine, run python script, and in addition migrate private repos to gitlab and/or make some public.
   - [ ] Still some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)

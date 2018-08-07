@@ -4,69 +4,6 @@ const fs = require('fs')
 const path = require('path')
 const util = require('util')
 
-
-
-// used for testing function 
-function testing() {
-    const testFail = genNavBarList()
-
-    console.log(testFail) 
-
-    console.log('This is not of interest')
-
-    return 2323232323232
-    const dirNames = getDirectories('docs')
-    console.log(dirNames)
-
-    // navbar settings
-    let navBarNames = "{ text: \'Home\', link: \'/\' }, \n"
-
-    var numOfDirs = dirNames.length;
-    for (var i = 0; i < numOfDirs; i++) {
-        // not last entry
-        if (i != numOfDirs -1 ) {
-            navBarNames = navBarNames + "{ text : \'" + dirNames[i] + "\', " + "link: " + "\'/" + dirNames[i] + "/\'}, \n";
-        }
-        // last entry 
-        else {
-            navBarNames = navBarNames + "{ text : \'" + dirNames[i] + "\', " + "link: " + "\'/" + dirNames[i] + "/\'}, \n";
-        }
-        console.log(navBarNames)
-    }
-
-    fs.writeFile("docs/.vuepress/configNavbarDir.txt", navBarNames, function(err) {
-        if(err) {
-            return console.log(err);
-        }
-        console.log("navbar directory file is saved.");
-    }); 
-
-    var files = []
-    // sidebar settings
-    for (var i=0; i < dirNames.length; i++) {
-        const relPath = path.join('docs', dirNames[i])
-        fromDir(relPath,/\.md$/,function(filename){
-            console.log('-- found: ',filename);
-            files.push(filename)
-        });
-    }
-        
-    fs.writeFile("docs/.vuepress/configSideBarList.txt", files, function(err) {
-        if(err) {
-            return console.log(err);
-        }
-        console.log("sidebar directory file is saved.");
-    }); 
-
-    const coolTest = genSideBarConfigFolder('Title Test','Test')
-    fs.writeFile("docs/.vuepress/configSideBarListTest.txt", coolTest, function(err) {
-        if(err) {
-            return console.log(err);
-        }
-        console.log("sidebar Good directory file is saved.");
-    }); 
-}
-
 module.exports = {
   base: '/boostnote-notes/',
   //theme: 'cool',
