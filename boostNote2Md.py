@@ -5,6 +5,9 @@ Author       : grandfleet
 Created Time : 2018-05-26 21:32:59
 Prerequisite:
     python3 -m pip install cson arrow glob
+Todo:
+    Update script with logging package (!Not important)
+    https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 """
 import json
 import os
@@ -78,6 +81,16 @@ def write_boostnote_markdown(data, output, folder_map):
                     print('Writing Title: ' + file_title)
                     f.write('## ' + file_title)
                     #print('ANIME OUT')
+                                
+                try:
+                    # Add a star emoji
+                    if data['isStarred']:
+                        f.write('**Starred** :star: ')
+                    # If in trash, shouldn't happen, but might.
+                    if data['isTrashed']:
+                        f.write('**Trashed** :skull_and_crossbones:')
+                except: 
+                    print('Unable to print emojis for: ' + target_file)
                 # Adding boostnote tags as vuepress badges, a little to specific for my taste, but easy enough to comment out later.
                 for badge in badges: 
                     vue_badge_string = " <Badge text=\"%s\" type=\"%s\" /> " % (badge, VUEPRESS_TYPES[1])

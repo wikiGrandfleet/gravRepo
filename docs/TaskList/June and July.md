@@ -1,4 +1,4 @@
-## June and July <Badge text="COol"/ type="warn" /> 
+## June and July**Starred** :star:  <Badge text="COol" type="warn" /> 
 # June and July
 keep adding new entries to the top
 

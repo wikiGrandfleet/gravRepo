@@ -8,6 +8,7 @@ ENGR 003
 - [x] Solidity book for developers
 - [ ] Games for Ethereum
 - [ ] Hyperledger Composer Book
+- [ ] golang
 !!!
 
 

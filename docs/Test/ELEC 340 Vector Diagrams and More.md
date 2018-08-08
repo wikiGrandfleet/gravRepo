@@ -111,7 +111,7 @@ at (0,0,/az){(0, 0, /az)};
 
 ### 3D vector plot cart no label
 
-```latex
+```LaTeX
 % https://tex.stackexchange.com/questions/164155/2d-and-3d-vectors-in-tikz
 /documentclass[tikz]{standalone}
 /usepackage{tikz-3dplot}
@@ -188,7 +188,7 @@ and see
 
 ### Tower Defence
 
-```c
+```C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -224,7 +224,7 @@ public class ProjectileScript : MonoBehaviour {
 ```
 
 Creating the tower in unity
-```c
+```C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

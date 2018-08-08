@@ -23,14 +23,21 @@ The tasks listed below are expected to be done by the end of the term.
 
 !!! caution Minor Backlog
 The tasks listed below are expected to be done by the end of the term.
-- [ ] ALso get BOTUI working, https://github.com/botui/botui, so I can get vue based protoflio?
-- [ ] Porotflio theme done in vuepress or other. Could Use Hugo
+- [ ] ALso get BOTUI working, https://github.com/botui/botui, so I can get vue based protoflio?, ignore vue base documentation theme, stuick to failing with nuxt, and /or vue based front-end blockchain projects
+- [ ] Porotflio theme done using academic, wait until bootstrap 4 is acepted, or clone the  [GitHub - sourcethemes/academic-kickstart: Easily create a beautiful website using Academic and Hugo](https://github.com/sourcethemes/academic-kickstart) reccomended project. [Hugo Sodium Theme | Hugo Themes](https://themes.gohugo.io/hugo-sodium-theme/) and steal some nice looking icons for solium.
 - [x] Update the automatic navbar/sidebar generation for markdown-notes-template. Kinda works but could explore alternatives.
 - [ ] Take care of long term issues such as filing out what games I have on my machine, run python script, and in addition migrate private repos to gitlab and/or make some public.
 - [ ] Still some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)
 !!!
  
+!!! attention Future VVery unimportant tasks
+### Solidity 
+[GitHub - aunyks/vitruvius: 🛠 Elementary data structures in Solidity for Ethereum Smart Contracts.](https://github.com/aunyks/vitruvius)
+[GitHub - raineorshine/solidity-by-example: A collection of short yet fully-functional contracts that demonstrate Solidity language features.](https://github.com/raineorshine/solidity-by-example)
 
+https://github.com/ethereum/vyper
+[IEEE Xplore Full-Text PDF:](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8307397)
+!!!
 #### Section of open source projects
 !!! attention Vuepress-theme-cool
 This contains the todo list for my open source vuepress theme
