@@ -6,7 +6,7 @@ ENGR 003
 - [x] Internet of Things A to Z: Technologies and Applications
 - [x] Solidity Programming Essentials
 - [x] Solidity book for developers
-- [ ] Games for Ethereum
+- [x] Games for Ethereum
 - [ ] Hyperledger Composer Book
 - [ ] golang
 !!!
@@ -27,9 +27,10 @@ Libgen books.
 !!! danger Blockchain Notes add to notes
 Add to lwarp notes lol.
 - [ ] [Web3 Design Principles – beltran – Medium](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1)
+- [x] [Selecting the best Machine Learning algorithm for your regression problem](https://towardsdatascience.com/selecting-the-best-machine-learning-algorithm-for-your-regression-problem-20c330bad4ef)
 !!!
 
 !!! hint AI Notes
 Add to lwarp AI Notes
-- [ ] <https://hackernoon.com/the-simplest-explanation-of-machine-learning-youll-ever-read-bebc0700047c>
+- [x] <https://hackernoon.com/the-simplest-explanation-of-machine-learning-youll-ever-read-bebc0700047c>
 !!!

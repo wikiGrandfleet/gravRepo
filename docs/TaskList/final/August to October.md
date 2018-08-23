@@ -6,12 +6,10 @@ keep adding new entries to the top
 
 !!! error Current Tasks Highest priority
 **Current tasks** get done quickly.
-- [x] Finish the ENGR 003 Report (Almost done)
+- [ ] Finish the ENGR 003 Report
 - [x] Reading documentation for IOT in both markdown and latex.
 - [ ]. [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
-- [x] create lwarp "book" template based on classic thesis for fourth year engineering courses.
-- [ ] Extract all useful data from my notes for dinosaur ENGR 003. and convert stuff to latex.
- !!!
+!!!
 
 !!! danger Major Backlog
 The tasks listed below are expected to be done by the end of the term.
@@ -19,8 +17,7 @@ The tasks listed below are expected to be done by the end of the term.
 - [ ] Soldiity contracts repo for games, explaining how to use then and more. Also, use solcdoc to make markdoown files and a script for latex/vuepress to include the source? 
 - [x] Update the Blockchain notes repo.
 - [ ] When making the solidity contracts use boostnote minus the admonitions, but write the code in either js or solidity and use [Pandoc Markdown Code Blocks in LaTeX](http://weibeld.net/markdown/pandoc_code_blocks.html) with a custom pandoc template.
-- [x] Fix python script on gitlab, auto sending reports to self,  (had to make new email)
-- [ ] update python script to probably with jinja based format and maybe latex output.
+- [ ] Fix python script on gitlab, auto sending reports to self, with probably jinja based format and maybe latex output.
 - [ ] [Building a chat bot with Nest.js and Dialogflow](https://pusher.com/tutorials/chat-bot-nestjs), extend this app. and look at [How to Build a Vue.js Chat App with ChatEngine | PubNub](https://www.pubnub.com/tutorials/chatengine/vuejs/chat-app/)
 !!!
 
@@ -30,7 +27,7 @@ The tasks listed below are expected to be done by the end of the term.
 - [ ] Porotflio theme done using academic, wait until bootstrap 4 is acepted, or clone the  [GitHub - sourcethemes/academic-kickstart: Easily create a beautiful website using Academic and Hugo](https://github.com/sourcethemes/academic-kickstart) reccomended project. [Hugo Sodium Theme | Hugo Themes](https://themes.gohugo.io/hugo-sodium-theme/) and steal some nice looking icons for solium.
 - [x] Update the automatic navbar/sidebar generation for markdown-notes-template. Kinda works but could explore alternatives.
 - [ ] Take care of long term issues such as filing out what games I have on my machine, run python script, and in addition migrate private repos to gitlab and/or make some public.
-- [ ] [Data-Analysis/stocker at master · WillKoehrsen/Data-Analysis · GitHub](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
+- [ ] Still some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)
 !!!
  
 !!! attention Future VVery unimportant tasks
@@ -40,8 +37,6 @@ The tasks listed below are expected to be done by the end of the term.
 
 https://github.com/ethereum/vyper
 [IEEE Xplore Full-Text PDF:](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8307397)
-- [ ] [Program the Blockchain](https://programtheblockchain.com) Swipe a bunch of sart contracts
-
 !!!
 #### Section of open source projects
 !!! attention Vuepress-theme-cool
@@ -49,14 +44,8 @@ This contains the todo list for my open source vuepress theme
 - [x] [GitHub - docarys/markdown-it-admonition: An admonition plugin for markdown-it powered by docarys.io](https://github.com/docarys/markdown-it-admonition)
 - [ ] Adding mindmap package for documentation
 - [ ] Find out how many humans are downloading my packages lol. 
-- [ ] Fix issues 2 and 3
-- [ ] -Steal some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)
 !!!
 
-!!! yiedl 
-truffle 5.0.0 beta new features for smart contracts in yiedl, check reverts etc...
-
-!!!
 !!! attention Resume stuff 
 Cool stuff.
 * https://github.com/daniyall/resume-generator
@@ -71,8 +60,7 @@ Do if bored.
 - [ ] Deploy some garbage apps using go
 - [ ] Update documentation for vuepress-theme-cool and markdown-notes-template and provide a cheatsheet of what boostnote/vuepress can do together and limitations. 
 - [ ] [GitHub - dsbert/boostnote-exporter: Export notes from boostnote to raw markdown](https://github.com/dsbert/boostnote-exporter)
-- [ ] [Step by Step Approach to create DAPP—using Ethereum, ReactJS & IPFS — Part 1](https://medium.com/coinmonks/step-by-step-approach-to-create-dapp-using-ethereum-reactjs-ipfs-part-1-42ea4cf69488)
-- [ ] decentralized storage for files  [Hands On: Get Started With Infura and the IPFS on Ethereum](https://medium.freecodecamp.org/hands-on-get-started-with-infura-and-ipfs-on-ethereum-b63635142af0) [GitHub - redacademy/vue-ethereum-ipfs: Distributed Application Starter: Vue front-end, Ethereum / IPFS Backend](https://github.com/redacademy/vue-ethereum-ipfs)
+- [     ] [Step by Step Approach to create DAPP—using Ethereum, ReactJS & IPFS — Part 1](https://medium.com/coinmonks/step-by-step-approach-to-create-dapp-using-ethereum-reactjs-ipfs-part-1-42ea4cf69488)
 !!!
 
 !!! note References

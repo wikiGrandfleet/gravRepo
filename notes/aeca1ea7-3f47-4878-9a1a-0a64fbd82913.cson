@@ -1,5 +1,5 @@
 createdAt: "2018-08-04T15:11:17.395Z"
-updatedAt: "2018-08-14T04:13:26.684Z"
+updatedAt: "2018-08-23T04:11:45.970Z"
 type: "MARKDOWN_NOTE"
 folder: "5cef29a72e245ea24273"
 title: "August to October"
@@ -12,7 +12,7 @@ content: '''
   
   !!! error Current Tasks Highest priority
   **Current tasks** get done quickly.
-  - [ ] Finish the ENGR 003 Report (Almost done)
+  - [x] Finish the ENGR 003 Report (Almost done)
   - [x] Reading documentation for IOT in both markdown and latex.
   - [ ]. [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
   - [x] create lwarp "book" template based on classic thesis for fourth year engineering courses.
@@ -36,7 +36,7 @@ content: '''
   - [ ] Porotflio theme done using academic, wait until bootstrap 4 is acepted, or clone the  [GitHub - sourcethemes/academic-kickstart: Easily create a beautiful website using Academic and Hugo](https://github.com/sourcethemes/academic-kickstart) reccomended project. [Hugo Sodium Theme | Hugo Themes](https://themes.gohugo.io/hugo-sodium-theme/) and steal some nice looking icons for solium.
   - [x] Update the automatic navbar/sidebar generation for markdown-notes-template. Kinda works but could explore alternatives.
   - [ ] Take care of long term issues such as filing out what games I have on my machine, run python script, and in addition migrate private repos to gitlab and/or make some public.
-  - [ ] Still some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)
+  - [ ] [Data-Analysis/stocker at master · WillKoehrsen/Data-Analysis · GitHub](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
   !!!
    
   !!! attention Future VVery unimportant tasks
@@ -46,6 +46,8 @@ content: '''
   
   https://github.com/ethereum/vyper
   [IEEE Xplore Full-Text PDF:](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8307397)
+  - [ ] [Program the Blockchain](https://programtheblockchain.com) Swipe a bunch of sart contracts
+  
   !!!
   #### Section of open source projects
   !!! attention Vuepress-theme-cool
@@ -53,8 +55,14 @@ content: '''
   - [x] [GitHub - docarys/markdown-it-admonition: An admonition plugin for markdown-it powered by docarys.io](https://github.com/docarys/markdown-it-admonition)
   - [ ] Adding mindmap package for documentation
   - [ ] Find out how many humans are downloading my packages lol. 
+  - [ ] Fix issues 2 and 3
+  - [ ] -Steal some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)
   !!!
   
+  !!! yiedl 
+  truffle 5.0.0 beta new features for smart contracts in yiedl, check reverts etc...
+  
+  !!!
   !!! attention Resume stuff 
   Cool stuff.
   * https://github.com/daniyall/resume-generator

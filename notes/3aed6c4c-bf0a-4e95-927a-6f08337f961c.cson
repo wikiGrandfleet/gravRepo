@@ -1,5 +1,5 @@
 createdAt: "2018-08-02T18:59:33.118Z"
-updatedAt: "2018-08-02T19:00:28.170Z"
+updatedAt: "2018-08-19T21:47:10.515Z"
 type: "MARKDOWN_NOTE"
 folder: "fb2abb5723b1e45552eb"
 title: "Readme"
@@ -7,6 +7,13 @@ content: '''
   ### Readme
   
   Example
+  
+  
+  #### Note taking rules
+  
+  1. Any content domain specific goes in the corresponding repo, AI content goes to AI Notes, and Bchain content goes to BlockNotes, but smart contract related content can go anyway
+  2. After co-op terms, continue to seperate the domain specific content into AI and Blockchain, with some subnotes repo (smart contracts)
+  3. Everythin interesting I look at can be placed in ENGR Year 4 Notes.
 '''
 tags: []
 isStarred: false

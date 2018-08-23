@@ -1,5 +1,4 @@
 ## June and July**Starred** :star:  <Badge text="COol" type="warn" /> 
-[[toc]] 
 # June and July
 keep adding new entries to the top
 
@@ -47,7 +46,7 @@ Do if bored.
 - [ ] Deploy some garbage apps using go
 - [ ] Update documentation for vuepress-theme-cool and markdown-notes-template and provide a cheatsheet of what boostnote/vuepress can do together and limitations. 
 
-[百度脑图�便�的�维工具](http://naotu.baidu.com/file/1d400c82d65cd3fd530ffc55d8eb3783?token=5e57783dc51b3617) Copy mind mpa from that.
+[百度脑图�便�的�维工具](http://naotu.baidu.com/file/1d400c82d65cd3fd530ffc55d8eb3783?token=5e57783dc51b3617) Copy mind mpa from that.
 ![unnamed.png](/boostnote-notes/images/c08bee54-8c8a-44db-9a9b-65525180318f/e2bf73ed.png)
 !!!
 

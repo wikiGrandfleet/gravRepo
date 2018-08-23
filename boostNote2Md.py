@@ -96,6 +96,9 @@ def write_boostnote_markdown(data, output, folder_map):
                     vue_badge_string = " <Badge text=\"%s\" type=\"%s\" /> " % (badge, VUEPRESS_TYPES[1])
                     f.write(vue_badge_string)
                 f.write('\n')
+                ## Write the table of contents 
+                # Potentially add factor for toc 
+                f.write('[[toc]] \n')
         except:
             print('Writing title and/or badges failed')
         # print(boostnote_type)
