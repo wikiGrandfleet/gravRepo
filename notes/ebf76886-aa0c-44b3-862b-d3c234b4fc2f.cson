@@ -1,10 +1,16 @@
 createdAt: "2018-08-15T03:26:20.388Z"
-updatedAt: "2018-08-15T03:26:41.684Z"
+updatedAt: "2018-08-25T02:37:06.261Z"
 type: "MARKDOWN_NOTE"
 folder: "5e0d61720a3e0b9b0d08"
-title: "August 2018"
+title: "September"
 content: '''
+  ### September
+  
+  
   ### August 2018
+  
+  To finish off august, update the python scripts, look into IPFS file storage, get it working with a box such as nuxt-truffle-box. And start rueading those old AI links sent to me by the boss.
+  
   
   Today summarize these links, espeically the arrow function stuff in the lwarp book I'm making. and dump ipfs links to solidity-smart contracts, get local version of mathjax working, could also see if I could include mathjax locally.
   

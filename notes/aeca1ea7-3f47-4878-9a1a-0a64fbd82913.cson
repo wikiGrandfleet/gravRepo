@@ -1,5 +1,5 @@
 createdAt: "2018-08-04T15:11:17.395Z"
-updatedAt: "2018-08-23T04:11:45.970Z"
+updatedAt: "2018-08-25T02:35:45.742Z"
 type: "MARKDOWN_NOTE"
 folder: "5cef29a72e245ea24273"
 title: "August to October"
@@ -17,10 +17,11 @@ content: '''
   - [ ]. [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
   - [x] create lwarp "book" template based on classic thesis for fourth year engineering courses.
   - [ ] Extract all useful data from my notes for dinosaur ENGR 003. and convert stuff to latex.
+  - [ ] Update Job Scrapper to use argparse and better organize my postings so that they aren't duplicated, one directory for all the html files, no need tfor text files. Update Indeed scrapper to include found keywords, in addition to 
    !!!
   
   !!! danger Major Backlog
-  The tasks listed below are expected to be done by the end of the term.
+  The tasks listed below are expected to be done by the end of the term ENGR 004, haha?.
   - [ ] cool [firebase Vue Dapp](https://medium.com/@sebinatx/building-an-ethereum-firebase-user-profile-dapp-part-2-226bcc11ae62, ) 
   - [ ] Soldiity contracts repo for games, explaining how to use then and more. Also, use solcdoc to make markdoown files and a script for latex/vuepress to include the source? 
   - [x] Update the Blockchain notes repo.
@@ -28,6 +29,7 @@ content: '''
   - [x] Fix python script on gitlab, auto sending reports to self,  (had to make new email)
   - [ ] update python script to probably with jinja based format and maybe latex output.
   - [ ] [Building a chat bot with Nest.js and Dialogflow](https://pusher.com/tutorials/chat-bot-nestjs), extend this app. and look at [How to Build a Vue.js Chat App with ChatEngine | PubNub](https://www.pubnub.com/tutorials/chatengine/vuejs/chat-app/)
+  - [ ] Update the Bchain application, Vue-Dapp and finish a basic IPFS app using a box.
   !!!
   
   !!! caution Minor Backlog
@@ -47,8 +49,8 @@ content: '''
   https://github.com/ethereum/vyper
   [IEEE Xplore Full-Text PDF:](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8307397)
   - [ ] [Program the Blockchain](https://programtheblockchain.com) Swipe a bunch of sart contracts
-  
   !!!
+  
   #### Section of open source projects
   !!! attention Vuepress-theme-cool
   This contains the todo list for my open source vuepress theme
@@ -57,11 +59,12 @@ content: '''
   - [ ] Find out how many humans are downloading my packages lol. 
   - [ ] Fix issues 2 and 3
   - [ ] -Steal some things from vuepress-them-ubmla for vuepress-theme coll [GitHub - nakorndev/vuepress-theme-bulma: Bulma.css theme for VuePress](https://github.com/nakorndev/vuepress-theme-bulma)
+  - [ ] Upload a documentation library for my theme.
   !!!
   
   !!! yiedl 
   truffle 5.0.0 beta new features for smart contracts in yiedl, check reverts etc...
-  
+  - [ ] Look into python frameworks for apis and javascript frameworks for apis.
   !!!
   !!! attention Resume stuff 
   Cool stuff.
