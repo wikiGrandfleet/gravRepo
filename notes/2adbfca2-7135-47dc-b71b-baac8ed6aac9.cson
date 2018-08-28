@@ -1,5 +1,5 @@
 createdAt: "2018-07-24T02:07:09.556Z"
-updatedAt: "2018-08-20T04:14:42.359Z"
+updatedAt: "2018-08-28T01:39:18.202Z"
 type: "MARKDOWN_NOTE"
 folder: "fb2abb5723b1e45552eb"
 title: "Reading List for 2018"
@@ -13,8 +13,10 @@ content: '''
   - [x] Solidity Programming Essentials
   - [x] Solidity book for developers
   - [x] Games for Ethereum
-  - [ ] Hyperledger Composer Book
+  - [x] Hyperledger Composer Book
   - [ ] golang
+  - [ ] Matlab stuff, deep learning
+  - [ ] Google tensorflow examples learning course.
   !!!
   
   

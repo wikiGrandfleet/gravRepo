@@ -19,6 +19,19 @@ pageClass: custom-homepage-class
 footer: MIT Licensed | Copyright © 2018-present David Li
 ---
 
+# Links to Remember 
+
+* https://friendlyuser.github.io/
+* https://davidliblog.netlify.com/
+* https://bchain-notes-personal.surge.sh
+
+Things to Replace
+Projects site will be replaced with hugo academic once bootstrap 4 kicks around 
+* https://davidliprojects.netlify.com/
+
+The wiki site is practically, this repo now, although I might update this site from time to time.
+* https://personal-wiki-hidden-1034.herokuapp.com
+
 ## Spring 2019 Schedule <Badge warning>4B</Badge>
 
 Only using the boostnote ones hmm.

@@ -1,0 +1,38 @@
+createdAt: "2018-08-26T16:00:05.823Z"
+updatedAt: "2018-08-26T20:25:51.758Z"
+type: "MARKDOWN_NOTE"
+folder: "5cef29a72e245ea24273"
+title: "Job Scrapper improvements"
+content: '''
+  ### Job Scrapper improvements
+  
+  #### Reporting
+  
+  Adding new plots, breaking down technologies, AWS vs Google App Container, vs heroku and other sources
+  
+  Programming languages I'm confortable with vs unfamilar with.
+  
+  More charts essentially and data.
+  #### Back End
+  Probably deploy to heroku and have two separate apps, one for the front-end and one for the back-end, although I could have heroku on the back-end and firebase for the front-end. Think about it some more, definitely have the app in separate repos.
+  
+  |# Jobs | Avg Keywords | Avg Skills | City | Search Terms | Date |
+  | ---| ---| ---| --- | --- | ---|
+  
+  Table 1: Schema for postgres database.
+  
+  https://medium.com/@siobhanpmahoney/deploying-a-react-frontend-rails-backend-project-to-heroku-4b2c4f6f630c
+  
+  
+  
+  https://flaviocopes.com/golang-tutorial-rest-api/
+  
+  https://flaviocopes.com/vue-introduction/
+  
+  Probably get a golang backend. test with insomnia and then write some automatic tests
+'''
+tags: [
+  "Golang"
+]
+isStarred: false
+isTrashed: false

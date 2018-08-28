@@ -1,5 +1,5 @@
 createdAt: "2018-08-04T15:11:17.395Z"
-updatedAt: "2018-08-25T02:35:45.742Z"
+updatedAt: "2018-08-28T03:41:52.748Z"
 type: "MARKDOWN_NOTE"
 folder: "5cef29a72e245ea24273"
 title: "August to October"
@@ -17,7 +17,10 @@ content: '''
   - [ ]. [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
   - [x] create lwarp "book" template based on classic thesis for fourth year engineering courses.
   - [ ] Extract all useful data from my notes for dinosaur ENGR 003. and convert stuff to latex.
-  - [ ] Update Job Scrapper to use argparse and better organize my postings so that they aren't duplicated, one directory for all the html files, no need tfor text files. Update Indeed scrapper to include found keywords, in addition to 
+  - [x] Update Job Scrapper to use argparse and better organize my postings so that they aren't duplicated, one directory for all the html files, no need tfor text files. 
+  - [x] Update Indeed scrapper to include found keywords, addition to some plots. 
+  - [ ] Matlab Exercises and dump to Matlab git repo.
+  - [ ] Do typescript tutorial or something
    !!!
   
   !!! danger Major Backlog
@@ -33,8 +36,9 @@ content: '''
   !!!
   
   !!! caution Minor Backlog
-  The tasks listed below are expected to be done by the end of the term.
-  - [ ] ALso get BOTUI working, https://github.com/botui/botui, so I can get vue based protoflio?, ignore vue base documentation theme, stuick to failing with nuxt, and /or vue based front-end blockchain projects
+  The tasks listed below are expected to be done by the end of the term ENGR 004.
+  - [ ] Create backend that the python scripts hits up so that data can be recorded. See Job Scrapper improvement.
+  - [ ] ALso get BOTUI working, https://github.com/botui/botui, so I can get vue based protoflio?, ignore vue base documentation theme, stuick to failing with nuxt, and /or vue based front-end blockchain projects, probably going to use hugo [GitHub - themefisher/navigator-hugo: Navigator Template Hugo Version by themefisher](https://github.com/themefisher/navigator-hugo) and for a landing page use a different hugo theme.
   - [ ] Porotflio theme done using academic, wait until bootstrap 4 is acepted, or clone the  [GitHub - sourcethemes/academic-kickstart: Easily create a beautiful website using Academic and Hugo](https://github.com/sourcethemes/academic-kickstart) reccomended project. [Hugo Sodium Theme | Hugo Themes](https://themes.gohugo.io/hugo-sodium-theme/) and steal some nice looking icons for solium.
   - [x] Update the automatic navbar/sidebar generation for markdown-notes-template. Kinda works but could explore alternatives.
   - [ ] Take care of long term issues such as filing out what games I have on my machine, run python script, and in addition migrate private repos to gitlab and/or make some public.
@@ -62,9 +66,14 @@ content: '''
   - [ ] Upload a documentation library for my theme.
   !!!
   
-  !!! yiedl 
+  !!! note blockchain
+  Tasks bchain related, in particular decentralized applications
+  - [ ] decentralized storage app, useful for reports that I can link to on the internet, storage and recording where they are stored, do on kovan because it's hard to hack and no one will fuck with that use drizzle box for speed? or nuxt box or typescript box.
+  - [ ] Finish off integration todolist for vue dapp, expand user list and write more stuff.
+  !!!
+  !!! attention yiedl 
   truffle 5.0.0 beta new features for smart contracts in yiedl, check reverts etc...
-  - [ ] Look into python frameworks for apis and javascript frameworks for apis.
+  - [x] Look into python frameworks for apis and javascript frameworks for apis.
   !!!
   !!! attention Resume stuff 
   Cool stuff.
