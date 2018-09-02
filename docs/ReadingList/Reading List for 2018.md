@@ -7,11 +7,17 @@ ENGR 003
 - [x] Solidity Programming Essentials
 - [x] Solidity book for developers
 - [x] Games for Ethereum
-- [ ] Hyperledger Composer Book
+- [x] Hyperledger Composer Book
 - [ ] golang
+- [ ] Matlab stuff, deep learning
+- [ ] Google tensorflow examples learning course.
 !!!
 
+#### Other 
 
+!!! danger books
+- [ ] SelfStudy/Internet of Things A to Z/internet-things-technologies-applications
+!!!
 ## Books to download 
 
 !!! error 
@@ -28,6 +34,8 @@ Libgen books.
 Add to lwarp notes lol.
 - [ ] [Web3 Design Principles – beltran – Medium](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1)
 - [x] [Selecting the best Machine Learning algorithm for your regression problem](https://towardsdatascience.com/selecting-the-best-machine-learning-algorithm-for-your-regression-problem-20c330bad4ef)
+- [ ] [Understanding Web 3 — A User Controlled Internet – The Coinbase Blog](https://blog.coinbase.com/understanding-web-3-a-user-controlled-internet-a39c21cf83f3)
+- [ ] [How to Audit a Smart Contract (Blockgeeks Guide)](http://blockgeeks.acemlnb.com/lt.php?s=47e9a25245c7c2f7e31b1d3108b56620&i=693A730A6A69207)
 !!!
 
 !!! hint AI Notes

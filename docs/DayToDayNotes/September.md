@@ -1,6 +1,7 @@
 ### September
 
-
+Forgot postgres haha.   
+[postgresql - Forgot Admin Password on Postgres (Windows Installation), can't reset - Stack Overflow](https://stackoverflow.com/questions/47311101/forgot-admin-password-on-postgres-windows-installation-cant-reset) 
 ### August 2018
 
 To finish off august, update the python scripts, look into IPFS file storage, get it working with a box such as nuxt-truffle-box. And start rueading those old AI links sent to me by the boss.
