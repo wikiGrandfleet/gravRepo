@@ -1,5 +1,5 @@
 createdAt: "2018-08-26T16:00:05.823Z"
-updatedAt: "2018-09-02T16:27:29.199Z"
+updatedAt: "2018-09-02T18:20:51.313Z"
 type: "MARKDOWN_NOTE"
 folder: "5cef29a72e245ea24273"
 title: "Job Scrapper improvements"
@@ -63,6 +63,7 @@ content: '''
   - [ ] Deploy to heroku (via travis is ideal)
   - [ ] Build client side application 
   - [ ] Configure scripts to send data to api
+  - [ ] Intergrate functionality from [GitHub - adams-sarah/test2doc: Generate documentation for your REST/HTTP API from your Go unit tests](https://github.com/adams-sarah/test2doc)
   !!!
   
   ###### Links

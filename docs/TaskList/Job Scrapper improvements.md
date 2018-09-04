@@ -59,6 +59,7 @@ Probably get a golang backend. test with insomnia and then write some automatic 
 - [ ] Deploy to heroku (via travis is ideal)
 - [ ] Build client side application 
 - [ ] Configure scripts to send data to api
+- [ ] Intergrate functionality from [GitHub - adams-sarah/test2doc: Generate documentation for your REST/HTTP API from your Go unit tests](https://github.com/adams-sarah/test2doc)
 !!!
 
 ###### Links

@@ -37,7 +37,7 @@ except ImportError:
     time_aware = False
 
 def read_file(fp):
-    with open(fp, 'r', errors='ignore') as f:
+    with open(fp, 'r', errors='replace') as f:
         return f.read()
 
 

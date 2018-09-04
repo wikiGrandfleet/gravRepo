@@ -11,6 +11,8 @@ keep adding new entries to the top
 - [ ] Matlab Exercises and dump to Matlab git repo.
 - [ ] Do typescript tutorial or something
 - [ ] Stack overflow question about chaing transactions with drizzle, the "on the field" [web3.eth.Contract — web3.js 1.0.0 documentation](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html)
+- [ ] Use Overleaf 2.0 for ENGR 004, create a template minus the lwarp and then add lwarp support at the very end.
+- [ ] Overleaf 2.0 when git support comes out, I'll go and submodule it my Job Hunting Repo.
  !!!
 
 !!! danger Major Backlog

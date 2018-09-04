@@ -1,5 +1,5 @@
 createdAt: "2018-08-30T23:09:17.632Z"
-updatedAt: "2018-09-01T16:46:36.179Z"
+updatedAt: "2018-09-04T03:47:34.970Z"
 type: "MARKDOWN_NOTE"
 folder: "5cef29a72e245ea24273"
 title: "September to Decemeber"
@@ -17,6 +17,8 @@ content: '''
   - [ ] Matlab Exercises and dump to Matlab git repo.
   - [ ] Do typescript tutorial or something
   - [ ] Stack overflow question about chaing transactions with drizzle, the "on the field" [web3.eth.Contract — web3.js 1.0.0 documentation](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html)
+  - [ ] Use Overleaf 2.0 for ENGR 004, create a template minus the lwarp and then add lwarp support at the very end.
+  - [ ] Overleaf 2.0 when git support comes out, I'll go and submodule it my Job Hunting Repo.
    !!!
   
   !!! danger Major Backlog
