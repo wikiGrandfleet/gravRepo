@@ -1,5 +1,5 @@
 createdAt: "2018-08-30T23:09:17.632Z"
-updatedAt: "2018-09-16T02:49:25.379Z"
+updatedAt: "2018-09-17T03:09:32.319Z"
 type: "MARKDOWN_NOTE"
 folder: "5cef29a72e245ea24273"
 title: "September to Decemeber"
@@ -12,7 +12,7 @@ content: '''
   !!! error Current Tasks Highest priority
   **Current tasks** get done quickly.
   
-  - [ ] Fix gitlabscrapper
+  - [x] Fix gitlabscrapper
   - [ ] [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
   - [ ] Extract all useful data from my notes for dinosaur ENGR 003. and convert stuff to latex. Almost Done.
   - [ ] Matlab Exercises and dump to Matlab git repo.
@@ -40,7 +40,9 @@ content: '''
   - [ ] Porotflio theme done using academic, wait until bootstrap 4 is acepted, or clone the  [GitHub - sourcethemes/academic-kickstart: Easily create a beautiful website using Academic and Hugo](https://github.com/sourcethemes/academic-kickstart) reccomended project. [Hugo Sodium Theme | Hugo Themes](https://themes.gohugo.io/hugo-sodium-theme/) and steal some nice looking icons for solium. 
   - [ ] [Data-Analysis/stocker at master · WillKoehrsen/Data-Analysis · GitHub](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
   - [ ] Machine Learning
-  - [ ] Get openSource running on heroku by using google cloud container installing the dependencies specified [Deploy OpenProject to Heroku – the easy way | IMEOS](https://www.imeos.com/blog/2015/03/18/deploy-openproject-to-heroku-the-easy-way/) and deploying to heroku.
+  - [x] Get openSource running on heroku by using google cloud container installing the dependencies specified [Deploy OpenProject to Heroku – the easy way | IMEOS](https://www.imeos.com/blog/2015/03/18/deploy-openproject-to-heroku-the-easy-way/) and deploying to heroku.
+  - [ ] Get Latex compiling to surge, not important because of the CI pipeline and github pages.
+  - [ ] Uvic Career Center Script [David Li](https://dli-redmine.herokuapp.com/issues/3)
   !!!
   
   

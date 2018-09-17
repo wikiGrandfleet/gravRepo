@@ -5,15 +5,17 @@ keep adding new entries to the top
 
 !!! error Current Tasks Highest priority
 **Current tasks** get done quickly.
-- [ ] Fix gitlabscrapper
-- [ ]. [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
+
+- [x] Fix gitlabscrapper
+- [ ] [GitHub - HazyResearch/pdftotree: A tool for parsing PDF documents into a heirarchical, HTML-like tree.](https://github.com/HazyResearch/pdftotree) Explore that tool and see if i can train a ml model to extract tables from some textbooks.
 - [ ] Extract all useful data from my notes for dinosaur ENGR 003. and convert stuff to latex. Almost Done.
 - [ ] Matlab Exercises and dump to Matlab git repo.
 - [ ] Do typescript tutorial or something
 - [ ] Stack overflow question about chaing transactions with drizzle, the "on the field" [web3.eth.Contract — web3.js 1.0.0 documentation](https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html)
 - [ ] Use Overleaf 2.0 for ENGR 004, create a template minus the lwarp and then add lwarp support at the very end.
 - [ ] Overleaf 2.0 when git support comes out, I'll go and submodule it my Job Hunting Repo.
- !!!
+- [ ] Convert Solidity-smart contract to docsaurus documentation rather than vuepress and archieve the old repo.
+!!!
 
 !!! danger Major Backlog
 The tasks listed below are expected to be done by the end of the term ENGR 004, haha?.
@@ -32,6 +34,9 @@ The tasks listed below are expected to be done by the end of the term ENGR 004.
 - [ ] Porotflio theme done using academic, wait until bootstrap 4 is acepted, or clone the  [GitHub - sourcethemes/academic-kickstart: Easily create a beautiful website using Academic and Hugo](https://github.com/sourcethemes/academic-kickstart) reccomended project. [Hugo Sodium Theme | Hugo Themes](https://themes.gohugo.io/hugo-sodium-theme/) and steal some nice looking icons for solium. 
 - [ ] [Data-Analysis/stocker at master · WillKoehrsen/Data-Analysis · GitHub](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
 - [ ] Machine Learning
+- [x] Get openSource running on heroku by using google cloud container installing the dependencies specified [Deploy OpenProject to Heroku – the easy way | IMEOS](https://www.imeos.com/blog/2015/03/18/deploy-openproject-to-heroku-the-easy-way/) and deploying to heroku.
+- [ ] Get Latex compiling to surge, not important because of the CI pipeline and github pages.
+- [ ] Uvic Career Center Script [David Li](https://dli-redmine.herokuapp.com/issues/3)
 !!!
 
 
@@ -41,6 +46,7 @@ The tasks listed below are expected to be done by the end of the term ENGR 004.
 - [ ] Improve script for searching through career-center in uvic. **working decently as it**, but improvements including auto deployment with surge and ,consider CI/CD using a headerless browser such as phantomjs (low priority)
 - [ ] Start dumping list of good companies from scrapping
 - [x] Take care of long term issues such as filing out what games I have on my machine, run python script, and in addition migrate private repos to gitlab and/or make some public. **moved content to bitbucket only E003 repos moved.**
+- [ ] Add [David Li](https://dli-redmine.herokuapp.com/) to list of repos to check.
 !!!
 !!! attention Future VVery unimportant tasks
 ### Solidity 

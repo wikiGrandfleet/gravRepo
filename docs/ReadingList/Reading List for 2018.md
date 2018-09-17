@@ -9,8 +9,9 @@ ENGR 003
 - [x] Games for Ethereum
 - [x] Hyperledger Composer Book
 - [ ] golang
-- [ ] Matlab stuff, deep learning
+- [x] Matlab stuff, deep learning
 - [ ] Google tensorflow examples learning course.
+- [ ] Understanding Machine Learning from concepts to tech stack (use BOostote Notes method)
 !!!
 
 #### Other 
@@ -36,6 +37,8 @@ Add to lwarp notes lol.
 - [x] [Selecting the best Machine Learning algorithm for your regression problem](https://towardsdatascience.com/selecting-the-best-machine-learning-algorithm-for-your-regression-problem-20c330bad4ef)
 - [ ] [Understanding Web 3 — A User Controlled Internet – The Coinbase Blog](https://blog.coinbase.com/understanding-web-3-a-user-controlled-internet-a39c21cf83f3)
 - [ ] [How to Audit a Smart Contract (Blockgeeks Guide)](http://blockgeeks.acemlnb.com/lt.php?s=47e9a25245c7c2f7e31b1d3108b56620&i=693A730A6A69207)
+- [ ] ERC 998 standard
+- [ ] [Ethereum — Vyper Development Using Truffle – John Grant – Medium](https://medium.com/@johngrant/ethereum-vyper-development-using-truffle-73781c4d81d5) Might try a few of that
 !!!
 
 !!! hint AI Notes
