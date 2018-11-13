@@ -14,6 +14,9 @@ ENGR 003
 - [ ] Understanding Machine Learning from concepts to tech stack (use BOostote Notes method)
 !!!
 
+AI 
+
+- [ ] Pratical cloud approach dump cloud to bitbucket after.
 #### Other 
 
 !!! danger books
@@ -28,17 +31,23 @@ Libgen books.
 * http://libgen.io/search.php?&req=data+mining&phrase=1&view=simple&column=def&sort=year&sortmode=DESC
 * http://libgen.io/book/index.php?md5=6FF9CD52DAA815A8CBE453444EC01C64
 * http://libgen.io/book/index.php?md5=EFFAC31057A9E5489C9069845DDF22DD
+* [GitHub - Shivanandroy/Study-Materials](https://github.com/Shivanandroy/Study-Materials)
 !!!
 
 ### Summarize Links
 !!! danger Blockchain Notes add to notes
 Add to lwarp notes lol.
-- [ ] [Web3 Design Principles – beltran – Medium](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1)
+- [x] [Web3 Design Principles – beltran – Medium](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1)
 - [x] [Selecting the best Machine Learning algorithm for your regression problem](https://towardsdatascience.com/selecting-the-best-machine-learning-algorithm-for-your-regression-problem-20c330bad4ef)
-- [ ] [Understanding Web 3 — A User Controlled Internet – The Coinbase Blog](https://blog.coinbase.com/understanding-web-3-a-user-controlled-internet-a39c21cf83f3)
-- [ ] [How to Audit a Smart Contract (Blockgeeks Guide)](http://blockgeeks.acemlnb.com/lt.php?s=47e9a25245c7c2f7e31b1d3108b56620&i=693A730A6A69207)
+- [x] [Understanding Web 3 — A User Controlled Internet – The Coinbase Blog](https://blog.coinbase.com/understanding-web-3-a-user-controlled-internet-a39c21cf83f3)
+- [x] [How to Audit a Smart Contract (Blockgeeks Guide)](http://blockgeeks.acemlnb.com/lt.php?s=47e9a25245c7c2f7e31b1d3108b56620&i=693A730A6A69207)
 - [ ] ERC 998 standard
 - [ ] [Ethereum — Vyper Development Using Truffle – John Grant – Medium](https://medium.com/@johngrant/ethereum-vyper-development-using-truffle-73781c4d81d5) Might try a few of that
+- [ ] [ERC-721 metadata standards and IPFS – Blockchain Manchester – Medium](https://medium.com/blockchain-manchester/erc-721-metadata-standards-and-ipfs-94b01fea2a89)
+- [ ] [IPFS and Ethereum ERC721 token Helps Claiming Ownership of Digital Art](https://medium.com/coinmonks/ipfs-and-ethereum-erc721-token-helps-claiming-ownership-of-digital-art-2fe463244382)
+- [ ] [Program the Blockchain | Implementing Harberger Tax Deeds](https://programtheblockchain.com/posts/2018/09/19/implementing-harberger-tax-deeds/)
+- [x] [your-word/contracts at master · aviaryan/your-word · GitHub](https://github.com/aviaryan/your-word/tree/master/contracts)
+- [x] [Receive Ether* for quality answers – Patryk Adaś – Medium](https://medium.com/@patrykadas/receive-ether-for-quality-answers-50179c30ce28)
 !!!
 
 !!! hint AI Notes
