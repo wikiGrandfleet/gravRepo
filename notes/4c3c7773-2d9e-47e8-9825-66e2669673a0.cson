@@ -1,0 +1,14 @@
+createdAt: "2018-12-12T05:05:16.215Z"
+updatedAt: "2018-12-12T05:12:47.592Z"
+type: "MARKDOWN_NOTE"
+folder: "a2bc795d959ce906dd80"
+title: "BLockchain by example"
+content: '''
+  # BLockchain by example
+  Smart contracts are one of the most exciting concepts in the blockchain. They represent self-executing scripts stored on the blockchain. The smart contract takes the blockchain to the next stage enabling it to translate business logic into inviolable contract terms, which will be autonomously executed without relying on a broker, lawyer or other intermediaries.
+  
+  Smart contracts are one of the powerful disruptive forces of the blockchain which is garnering more and more business attention as witnessed by the [Gartner](https://www.gartner.com/smarterwithgartner/why-blockchains-smart-contracts-arent-ready-for-the-business-world/) report. They estimate that by 2022, smart contracts will be in use by more than 25% of global organizations.
+'''
+tags: []
+isStarred: false
+isTrashed: false
