@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "docs:dev": "node node_modules/vuepress/bin/vuepress dev docs",
+    "docs:build": "node node_modules/vuepress/bin/vuepress.js build docs",
+    "gitlab:dev": "node node_modules/vuepress/bin/vuepress dev gitlab",
+    "gitlab:build": "node node_modules/vuepress/bin/vuepress.js build gitlab",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.13.1"
+  },
+  "dependencies": {
+    "markdown-it-admonition": "https://github.com/johannbre/markdown-it-admonition",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-plantuml": "^1.1.0",
+    "markdown-it-task-lists": "^2.1.1"
+  }
+}

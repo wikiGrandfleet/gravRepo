@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "key": "5cef29a72e245ea24273",
+      "color": "#2BA5F7",
+      "name": "TaskList"
+    },
+    {
+      "key": "5e0d61720a3e0b9b0d08",
+      "color": "#3FD941",
+      "name": "DayToDayNotes"
+    },
+    {
+      "key": "fb2abb5723b1e45552eb",
+      "color": "#2BA5F7",
+      "name": "ReadingList"
+    },
+    {
+      "key": "a2bc795d959ce906dd80",
+      "color": "#3FD941",
+      "name": "yiedl"
+    },
+    {
+      "key": "4694455fbf620095b8e0",
+      "color": "#E10051",
+      "name": "Visual Novels"
+    }
+  ],
+  "version": "1.0"
+}

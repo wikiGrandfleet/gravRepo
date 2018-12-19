@@ -1,0 +1,17 @@
+createdAt: "2018-08-14T01:21:19.667Z"
+updatedAt: "2018-08-14T02:29:11.451Z"
+type: "MARKDOWN_NOTE"
+folder: "5e0d61720a3e0b9b0d08"
+title: "Geth"
+content: '''
+  ### Geth
+  
+  I assume that random hackers have scripts on the internet that go to every geth node and check if the node is permentently unlocked and if it so, extract all the ether from that account.
+  
+  That is what happened to the ropsten account  I was using.
+  
+  Started to work on state channels for vlad.
+'''
+tags: []
+isStarred: false
+isTrashed: false

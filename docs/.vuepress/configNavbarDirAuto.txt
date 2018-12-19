@@ -1,0 +1,4 @@
+[ { text: 'Home', link: '/' },
+  { text: 'ReadingList', link: '/ReadingList/' },
+  { text: 'TaskList', link: '/TaskList/' },
+  { text: 'Test', link: '/Test/' } ]
